@@ -19,8 +19,7 @@ I want to normalize the dataset like the ER Diagram below :
 
 ![alt text](create_customers.png)
 
-</hr>customer_id CHAR(36) PRIMARY KEY DEFAULT (UUID()) </hr>
-customer_id CHAR(36) PRIMARY KEY DEFAULT (UUID()): In this case, I use UUID() 36 characters for the PRIMARY KEY, except in the Orders table where I use the default PRIMARY KEY because it is already provided in the file. So, I'm not creating UUID() again.
+⭐ customer_id CHAR(36) PRIMARY KEY DEFAULT (UUID()): In this case, I use UUID() 36 characters for the PRIMARY KEY, except in the Orders table where I use the default PRIMARY KEY because it is already provided in the file. So, I'm not creating UUID() again.
 
 ![alt text](create_orders.png)
 
